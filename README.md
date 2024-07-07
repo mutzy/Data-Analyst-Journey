@@ -1,52 +1,53 @@
-# Learning Python Progressively
+# Python classes Tutorial
 
 ## Introduction
 
-This repository will contain everything you will need to learn to deal with data analysis activities on your own. It will be broken down to module so that you can understand everything well and clearly.
+Python is an object oriented programming language, with almost everything is an object, with its properties and methods.
+A Class is like an object constructor, or a "blueprint" for creating objects.
 
-Firstly, this is a _README.md_ file this is necessary to understand the repository and mostly found in may git projects but not necessary in every case.
+## Goal
 
-## Python Installation into local machine.
+Data Processing Script
+This script processes input data, performs analysis, and outputs results.
 
-This will not be guided as I believe you know how to so we can skip this. Otherwise, ask if needed.
+## Let's Start
 
-## Set up virtual environment while inside this folder.
+### Classes
 
-When working on you python projects it is best to work inside a virtual enviroment that is if you have multiple project otherwise also skip this.
+We will start of my creating a class and understanding the difference between a class and a function in python.
 
-## Install necessary requirements
+Classes as defined above act like object, and Object is basically something that has a key and a value. eg:
 
-### IDE:
+````
+```Objectvar = {
+ 'name': "mutuku",
+ 'age':30
+}```
+````
 
-- Jupyter Notebook/Lab: Best for interactive data analysis and visualization.(Recommend)
-- PyCharm: Best for a comprehensive and feature-rich development environment (especially the Professional version).
-- VS Code: Best for a lightweight, customizable IDE with powerful extensions.
+The above can then be accessed as shown below:
 
-## Nature of Lesson
+````
+ ```Objectvar.name```
+````
 
-We will use branches to divide the classes up when done we will move to the next that means you will git checkout to the required branch.
-But to make the lesson include learning git / github you will include this in this lessons.
+The result from the above should be:
 
-### Git commands
+````
+ ```"mutuku"```
+````
 
-git clone https://github.com/{username}/{repo}.git - This command clones the github repository to your local machine. Or click just click download to download a zip file and extract the same.
+Classes unlike functions start with the keyword "class". eg:
 
-git checkout {branchname} - This command allows you to switch branches
+````
+ ``` class ClassName():```
+````
 
-git branch {branchname} - This commmand creates a new branch
+while as we saw in our last session functions start with the keyword "def". eg:
 
-git merge {branchwherechangesare} {currentbranchname}
+````
+ ```def FunctionName():```
 
-git commit -m "{Your commit message}" - This allows you to write a summary of what you have done before pushing to remote repository
+````
 
-git pull - This allows you to fetch and also commit updates from remote repo if you are working in a team
-
-git push origin {branchname} - This allows you to push your changes to remote repository after committing you changes using.
-
-# What you will learn when done.
-
-1. Python Programming.
-2. SQL querying.
-3. R Programming.
-4. Necessary Libraries Importing and Use.
-5. Finally Use of Frameworks and Integrations to external platforms.
+### Jump in
