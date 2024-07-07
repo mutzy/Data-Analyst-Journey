@@ -142,57 +142,57 @@ Create a Python program to manage a small library system using classes. The syst
 
 ### How to test your work
 
-# Create some book instances
+### Create some book instances
 
 ```
 book1 = Book(title="1984", author="George Orwell", isbn="1234567890")
 book2 = Book(title="To Kill a Mockingbird", author="Harper Lee", isbn="0987654321")
 ```
 
-# Create a member instance
+### Create a member instance
 
 ```
 member1 = Member(name="John Doe", member_id="001")
 ```
 
-# Create a library instance
+### Create a library instance
 
 ```
 library = Library()
 ```
 
-# Add books to the library
+### Add books to the library
 
 ```
 library.add_book(book1)
 library.add_book(book2)
 ```
 
-# Register member to the library
+### Register member to the library
 
 ```
 library.register_member(member1)
 ```
 
-# Member borrows a book
+### Member borrows a book
 
 ```
 member1.borrow_book(book1)
 ```
 
-# List available books
+### List available books
 
 ```
 print(library.list_available_books())
 ```
 
-# Member returns a book
+### Member returns a book
 
 ```
 member1.return_book(book1)
 ```
 
-# List available books
+### List available books
 
 ```
 print(library.list_available_books())
